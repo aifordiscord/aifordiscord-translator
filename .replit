@@ -1,0 +1,9 @@
+modules = ["nodejs-20"]
+
+run = "npx tsc && node dist/index.js"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "npx tsc && node dist/index.js"]

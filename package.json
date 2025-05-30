@@ -1,6 +1,6 @@
 {
   "name": "aifordiscord-translator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Discord bot package for real-time message translation using Google Translate",
   "main": "dist/index.js",
   "type": "module",
